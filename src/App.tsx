@@ -1,6 +1,6 @@
 import type { JSX } from 'react';
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import reactLogo from './assets/Teong.jpg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header.jsx';
