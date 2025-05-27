@@ -10,7 +10,7 @@ function Items() {
         return res.json();
       })
       .then(data => {
-        setItems(data);
+        setItems(data["Item"]["Full Name"]["S"]);
         setLoading(false);
       })
   }, []);
@@ -19,7 +19,7 @@ function Items() {
 
   return (
     <ul>
-    <li>{JSON.stringify(items)}</li>
+    <li>{items}</li>
     </ul>
   );
 }
